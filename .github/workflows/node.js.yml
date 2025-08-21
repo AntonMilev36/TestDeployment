@@ -24,4 +24,4 @@ jobs:
     - name: Building docker image and container
       run: |
         docker build -t ci-test-app .
-        docker run --rm --name ci-test-container ci-test-app
+        docker run --rm --name ci-test-container ci-test-app npm test

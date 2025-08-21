@@ -13,7 +13,7 @@ RUN npm install
 COPY . .
 
 # Start the app (change if needed)
-CMD ["npm", "test"]
+CMD ["npm", "start"]
 
 # Expose port if your app runs on one (e.g., React or Express)
 EXPOSE 8080
